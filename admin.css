@@ -1,0 +1,27 @@
+body{
+background-color: #1e8ccc !important;
+justify-content : center;
+display: block;
+
+}
+
+h2{
+    color: blue;
+
+    text-align: center;
+}
+
+.navbar{
+    max-width: 600px;
+    margin: 0 auto;
+}
+form{
+    max-width: 600px;
+    padding: 0px;
+    margin: 0 auto;
+}
+.container-lg{
+    max-width: 600px;
+    padding: 0%;
+    margin: 0 auto;
+}

@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+body{
+height: 100vh;
+background-image: url(../imagenes/bg-neon.jpg);
+background-position: center;
+background-size: cover;
+overflow: hidden;
+background-repeat: no-repeat;
+}
+
+::selection{
+  background: rgba(26,188,156,0.3);
+}
+.container{
+  max-width: 440px;
+  padding: 0 20px;
+  margin: 170px auto;
+}
+.wrapper{
+  width: 100%;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px 1px rgba(0,0,0,0.1);
+}
+.wrapper .title{
+  height: 90px;
+  background: #506d84d3;
+  border-radius: 5px 5px 0 0;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+form{
+  padding: 30px 25px 25px 25px;
+}
+.row{
+  height: 45px;
+  margin-bottom: 15px;
+  position: relative;
+}
+.row input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  padding-left: 60px;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+.row input:focus{
+  border-color: #506d84d3;
+  box-shadow: inset 0px 0px 2px 2px rgba(26,188,156,0.25);
+}
+.row input::placeholder{
+  color: #999;
+}
+.row i{
+  position: absolute;
+  width: 47px;
+  height: 100%;
+  color: #fff;
+  font-size: 18px;
+  background: #506d84d3;
+  border: 1px solid #506d84d3;
+  border-radius: 5px 0 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pass{
+  margin: -8px 0 20px 0;
+}
+.pass a{
+  color: #506d84d3;
+  font-size: 17px;
+  text-decoration: none;
+}
+.pass a:hover{
+  text-decoration: underline;
+}
+.button input{
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  padding-left: 0px;
+  background: #D4B499;
+  border: 1px solid #D4B499;
+  cursor: pointer;
+}
+.button input:hover{
+  background: #F3D5C0;
+  color: black;
+  transition: 1s;
+  border-color: #F3D5C0;
+}
+.signup-link{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.5vh;
+}
+.signup-link a{
+  color: #16a085;
+  text-decoration: none;
+  font-size: 1.5vh;
+}
+.signup-link a:hover{
+  text-decoration: underline;
+}
+
+.error_usuario{
+  color: rgb(253, 71, 71);
+}
+
+#usuario_input{
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  height: auto;
+}
